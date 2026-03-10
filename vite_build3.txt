@@ -1,0 +1,52 @@
+﻿
+> build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 2491 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mpublic/build/[22m[32mmanifest.json                            [39m[1m[2m 13.22 kB[22m[1m[22m[2m Ôöé gzip:  1.49 kB[22m
+[2mpublic/build/[22m[35massets/Dashboard-C6Ga9AJM.css            [39m[1m[2m  0.27 kB[22m[1m[22m[2m Ôöé gzip:  0.19 kB[22m
+[2mpublic/build/[22m[35massets/AuthenticatedLayout-C8L6jKkd.css  [39m[1m[2m  0.61 kB[22m[1m[22m[2m Ôöé gzip:  0.28 kB[22m
+[2mpublic/build/[22m[35massets/Edit-BkMj48Xb.css                 [39m[1m[2m  3.26 kB[22m[1m[22m[2m Ôöé gzip:  0.90 kB[22m
+[2mpublic/build/[22m[35massets/Create-6GSMWPZK.css               [39m[1m[2m  4.16 kB[22m[1m[22m[2m Ôöé gzip:  1.10 kB[22m
+[2mpublic/build/[22m[35massets/app-Rltw0-0O.css                  [39m[1m[2m100.96 kB[22m[1m[22m[2m Ôöé gzip: 16.88 kB[22m
+[2mpublic/build/[22m[36massets/chevron-down-BSVFqdp2.js          [39m[1m[2m  0.14 kB[22m[1m[22m[2m Ôöé gzip:  0.15 kB[22m
+[2mpublic/build/[22m[36massets/loader-circle-DQqxYKMm.js         [39m[1m[2m  0.15 kB[22m[1m[22m[2m Ôöé gzip:  0.16 kB[22m
+[2mpublic/build/[22m[36massets/plus-DvVIMYDp.js                  [39m[1m[2m  0.16 kB[22m[1m[22m[2m Ôöé gzip:  0.16 kB[22m
+[2mpublic/build/[22m[36massets/arrow-up-right-BNUHEHQ6.js        [39m[1m[2m  0.18 kB[22m[1m[22m[2m Ôöé gzip:  0.16 kB[22m
+[2mpublic/build/[22m[36massets/circle-check-Bj2WnwD6.js          [39m[1m[2m  0.18 kB[22m[1m[22m[2m Ôöé gzip:  0.17 kB[22m
+[2mpublic/build/[22m[36massets/lock-DopFPas8.js                  [39m[1m[2m  0.21 kB[22m[1m[22m[2m Ôöé gzip:  0.20 kB[22m
+[2mpublic/build/[22m[36massets/mail-B2SgRnm3.js                  [39m[1m[2m  0.22 kB[22m[1m[22m[2m Ôöé gzip:  0.21 kB[22m
+[2mpublic/build/[22m[36massets/circle-alert-BLLuRE5h.js          [39m[1m[2m  0.26 kB[22m[1m[22m[2m Ôöé gzip:  0.19 kB[22m
+[2mpublic/build/[22m[36massets/funnel-B-ogR9TE.js                [39m[1m[2m  0.26 kB[22m[1m[22m[2m Ôöé gzip:  0.22 kB[22m
+[2mpublic/build/[22m[36massets/shield-BN7CqBPb.js                [39m[1m[2m  0.28 kB[22m[1m[22m[2m Ôöé gzip:  0.23 kB[22m
+[2mpublic/build/[22m[36massets/credit-card-ChfEDOn5.js           [39m[1m[2m  0.29 kB[22m[1m[22m[2m Ôöé gzip:  0.24 kB[22m
+[2mpublic/build/[22m[36massets/send-B3eW5F4F.js                  [39m[1m[2m  0.30 kB[22m[1m[22m[2m Ôöé gzip:  0.24 kB[22m
+[2mpublic/build/[22m[36massets/user-plus-6dh2wHiK.js             [39m[1m[2m  0.32 kB[22m[1m[22m[2m Ôöé gzip:  0.24 kB[22m
+[2mpublic/build/[22m[36massets/trash-2-CGo-HBzA.js               [39m[1m[2m  0.34 kB[22m[1m[22m[2m Ôöé gzip:  0.22 kB[22m
+[2mpublic/build/[22m[36massets/clock-DFNm_ZRs.js                 [39m[1m[2m  0.38 kB[22m[1m[22m[2m Ôöé gzip:  0.26 kB[22m
+[2mpublic/build/[22m[36massets/user-Cn10hVcA.js                  [39m[1m[2m  0.47 kB[22m[1m[22m[2m Ôöé gzip:  0.31 kB[22m
+[2mpublic/build/[22m[36massets/Logs-CL8G6Lsn.js                  [39m[1m[2m  0.48 kB[22m[1m[22m[2m Ôöé gzip:  0.34 kB[22m
+[2mpublic/build/[22m[36massets/Logs-Cp_nO6R3.js                  [39m[1m[2m  0.48 kB[22m[1m[22m[2m Ôöé gzip:  0.34 kB[22m
+[2mpublic/build/[22m[36massets/createLucideIcon-BwNbgrLs.js      [39m[1m[2m  1.25 kB[22m[1m[22m[2m Ôöé gzip:  0.71 kB[22m
+[2mpublic/build/[22m[36massets/ExportDropdown-BOkVlkie.js        [39m[1m[2m  3.40 kB[22m[1m[22m[2m Ôöé gzip:  1.43 kB[22m
+[2mpublic/build/[22m[36massets/Login-MKeJKJrc.js                 [39m[1m[2m  4.15 kB[22m[1m[22m[2m Ôöé gzip:  1.64 kB[22m
+[2mpublic/build/[22m[36massets/Logs-w7xh4uD6.js                  [39m[1m[2m  4.89 kB[22m[1m[22m[2m Ôöé gzip:  1.95 kB[22m
+[2mpublic/build/[22m[36massets/Index-B-S5tMZ7.js                 [39m[1m[2m  5.00 kB[22m[1m[22m[2m Ôöé gzip:  1.64 kB[22m
+[2mpublic/build/[22m[36massets/Index-BpdLgq0C.js                 [39m[1m[2m  6.14 kB[22m[1m[22m[2m Ôöé gzip:  2.23 kB[22m
+[2mpublic/build/[22m[36massets/Workspace-BTjefpe8.js             [39m[1m[2m  6.35 kB[22m[1m[22m[2m Ôöé gzip:  2.47 kB[22m
+[2mpublic/build/[22m[36massets/Users-BABWB36D.js                 [39m[1m[2m  7.00 kB[22m[1m[22m[2m Ôöé gzip:  2.55 kB[22m
+[2mpublic/build/[22m[36massets/dayjs.min-CPHJunUR.js             [39m[1m[2m  7.15 kB[22m[1m[22m[2m Ôöé gzip:  3.11 kB[22m
+[2mpublic/build/[22m[36massets/Index-4Mo3nZWw.js                 [39m[1m[2m 10.95 kB[22m[1m[22m[2m Ôöé gzip:  3.53 kB[22m
+[2mpublic/build/[22m[36massets/Edit-yHzNmjuH.js                  [39m[1m[2m 11.57 kB[22m[1m[22m[2m Ôöé gzip:  3.39 kB[22m
+[2mpublic/build/[22m[36massets/Users-BpQS8mCq.js                 [39m[1m[2m 12.64 kB[22m[1m[22m[2m Ôöé gzip:  3.95 kB[22m
+[2mpublic/build/[22m[36massets/Edit-D080-58N.js                  [39m[1m[2m 12.74 kB[22m[1m[22m[2m Ôöé gzip:  3.58 kB[22m
+[2mpublic/build/[22m[36massets/Dashboard-DtHMm8s9.js             [39m[1m[2m 26.53 kB[22m[1m[22m[2m Ôöé gzip:  5.49 kB[22m
+[2mpublic/build/[22m[36massets/Create-8PdNXVzW.js                [39m[1m[2m 27.91 kB[22m[1m[22m[2m Ôöé gzip:  6.99 kB[22m
+[2mpublic/build/[22m[36massets/Show-B0pumCWK.js                  [39m[1m[2m 35.30 kB[22m[1m[22m[2m Ôöé gzip:  7.64 kB[22m
+[2mpublic/build/[22m[36massets/AuthenticatedLayout-BLyldszQ.js   [39m[1m[2m 96.93 kB[22m[1m[22m[2m Ôöé gzip: 35.10 kB[22m
+[2mpublic/build/[22m[36massets/app-BSNkMlad.js                   [39m[1m[2m273.24 kB[22m[1m[22m[2m Ôöé gzip: 97.04 kB[22m
+[32mÔ£ô built in 26.40s[39m

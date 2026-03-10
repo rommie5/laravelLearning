@@ -1,0 +1,116 @@
+﻿
+> build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 16 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 627ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mÔ£ù[39m   
+  Build failed in 6    
+27ms:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[@tailwindcss/vite
+:generate:build] 
+Cannot apply unknown 
+utility class 
+`font-black`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://t
+ailwindcss.com/docs/fun
+ctions-and-directives#r
+eference-directive[31m
+file: [36mC:/Users/jac
+ob/Documents/GitHub/con
+tract_management_system
+/resources/js/Pages/Con
+tracts/Create.vue?vue&t
+ype=style&index=0&scope
+d=9cacf95b&lang.css[31
+m
+    at 
+onInvalidCandidate (fil
+e:///C:/Users/jacob/Doc
+uments/GitHub/contract_
+management_system/node_
+modules/tailwindcss/dis
+t/chunk-L5IEUH3R.mjs:21
+:1314)
+    at $e (file:///C:/U
+sers/jacob/Documents/Gi
+tHub/contract_managemen
+t_system/node_modules/t
+ailwindcss/dist/chunk-L
+5IEUH3R.mjs:16:37066)
+    at file:///C:/Users
+/jacob/Documents/GitHub
+/contract_management_sy
+stem/node_modules/tailw
+indcss/dist/chunk-L5IEU
+H3R.mjs:21:355
+    at Ar (file:///C:/U
+sers/jacob/Documents/Gi
+tHub/contract_managemen
+t_system/node_modules/t
+ailwindcss/dist/chunk-L
+5IEUH3R.mjs:3:1733)
+    at I (file:///C:/Us
+ers/jacob/Documents/Git
+Hub/contract_management
+_system/node_modules/ta
+ilwindcss/dist/chunk-L5
+IEUH3R.mjs:3:1377)
+    at Ce (file:///C:/U
+sers/jacob/Documents/Gi
+tHub/contract_managemen
+t_system/node_modules/t
+ailwindcss/dist/chunk-L
+5IEUH3R.mjs:21:172)
+    at Gi (file:///C:/U
+sers/jacob/Documents/Gi
+tHub/contract_managemen
+t_system/node_modules/t
+ailwindcss/dist/chunk-L
+5IEUH3R.mjs:38:294)
+    at async ao (file:/
+//C:/Users/jacob/Docume
+nts/GitHub/contract_man
+agement_system/node_mod
+ules/tailwindcss/dist/c
+hunk-L5IEUH3R.mjs:38:63
+1)
+    at async vf (file:/
+//C:/Users/jacob/Docume
+nts/GitHub/contract_man
+agement_system/node_mod
+ules/tailwindcss/dist/c
+hunk-L5IEUH3R.mjs:38:14
+06)
+    at async uu (file:/
+//C:/Users/jacob/Docume
+nts/GitHub/contract_man
+agement_system/node_mod
+ules/@tailwindcss/node/
+dist/index.mjs:10:3458)
+[39m

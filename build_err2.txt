@@ -1,0 +1,94 @@
+﻿
+> build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[32mÔ£ô[39m 0 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 430ms
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mÔ£ù[39m   
+  Build failed in 4    
+30ms:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[vite:define] 
+Transform failed with 
+1 error:
+C:/Users/jacob/Document
+s/GitHub/contract_manag
+ement_system/resources/
+js/app.js:3:0: ERROR: 
+The JSX syntax 
+extension is not 
+currently enabled[31m
+file: [36mC:/Users/jac
+ob/Documents/GitHub/con
+tract_management_system
+/resources/js/app.js[3
+1m
+    at 
+failureErrorWithLog (C:
+\Users\jacob\Documents\
+GitHub\contract_managem
+ent_system\node_modules
+\esbuild\lib\main.js:14
+67:15)
+    at C:\Users\jacob\D
+ocuments\GitHub\contrac
+t_management_system\nod
+e_modules\esbuild\lib\m
+ain.js:736:50
+    at responseCallback
+s.<computed> (C:\Users\
+jacob\Documents\GitHub\
+contract_management_sys
+tem\node_modules\esbuil
+d\lib\main.js:603:9)
+    at 
+handleIncomingPacket (C
+:\Users\jacob\Documents
+\GitHub\contract_manage
+ment_system\node_module
+s\esbuild\lib\main.js:6
+58:12)
+    at 
+Socket.readFromStdout (
+C:\Users\jacob\Document
+s\GitHub\contract_manag
+ement_system\node_modul
+es\esbuild\lib\main.js:
+581:7)
+    at Socket.emit 
+(node:events:508:20)
+    at addChunk (node:i
+nternal/streams/readabl
+e:564:12)
+    at readableAddChunk
+PushByteMode (node:inte
+rnal/streams/readable:5
+15:3)
+    at Readable.push (n
+ode:internal/streams/re
+adable:395:5)
+    at 
+Pipe.onStreamRead (node
+:internal/stream_base_c
+ommons:189:23)[39m

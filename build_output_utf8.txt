@@ -1,0 +1,56 @@
+
+> build
+> vite build
+
+node.exe : [31mfailed to load config 
+from C:\Users\jacob\Documents\GitHub\con
+tract_management_system\vite.config.js[
+39m
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecif 
+   ied: ([31mfailed to ....config.js  
+  [39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCom 
+   mandError
+ 
+[31merror during build:
+ReferenceError: tailwindcss is not 
+defined
+    at file:///C:/Users/jacob/Documents/
+GitHub/contract_management_system/node_m
+odules/.vite-temp/vite.config.js.timesta
+mp-1771866804289-2d4fbd62da6ff.mjs:11:5
+    at ModuleJob.run (node:internal/modu
+les/esm/module_job:430:25)
+    at async 
+onImport.tracePromise.__proto__ (node:in
+ternal/modules/esm/loader:655:26)
+    at async loadConfigFromBundledFile (
+file:///C:/Users/jacob/Documents/GitHub/
+contract_management_system/node_modules/
+vite/dist/node/chunks/config.js:35909:12
+)
+    at async bundleAndLoadConfigFile (fi
+le:///C:/Users/jacob/Documents/GitHub/co
+ntract_management_system/node_modules/vi
+te/dist/node/chunks/config.js:35797:17)
+    at async loadConfigFromFile (file://
+/C:/Users/jacob/Documents/GitHub/contrac
+t_management_system/node_modules/vite/di
+st/node/chunks/config.js:35764:42)
+    at async resolveConfig (file:///C:/U
+sers/jacob/Documents/GitHub/contract_man
+agement_system/node_modules/vite/dist/no
+de/chunks/config.js:35413:22)
+    at async createBuilder (file:///C:/U
+sers/jacob/Documents/GitHub/contract_man
+agement_system/node_modules/vite/dist/no
+de/chunks/config.js:33875:19)
+    at async CAC.<anonymous> (file:///C:
+/Users/jacob/Documents/GitHub/contract_m
+anagement_system/node_modules/vite/dist/
+node/cli.js:629:10)[39m

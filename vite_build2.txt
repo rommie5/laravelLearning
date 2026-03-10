@@ -1,0 +1,135 @@
+﻿
+> build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 9 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 4.10s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mÔ£ù[39m   
+  Build failed in 4    
+.10s:String) [], R    
+emoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+[31m[vite:vue] 
+[plugin vite:vue] resou
+rces/js/Pages/Contracts
+/Show.vue (777:5): 
+Invalid end tag.[31m
+file: [36mC:/Users/jac
+ob/Documents/GitHub/con
+tract_management_system
+/resources/js/Pages/Con
+tracts/Show.vue:777:5[
+31m
+SyntaxError: [plugin 
+vite:vue] resources/js/
+Pages/Contracts/Show.vu
+e (777:5): Invalid end 
+tag.
+    at 
+createCompilerError (C:
+\Users\jacob\Documents\
+GitHub\contract_managem
+ent_system\node_modules
+\@vue\compiler-core\dis
+t\compiler-core.cjs.pro
+d.js:1374:17)
+    at emitError (C:\Us
+ers\jacob\Documents\Git
+Hub\contract_management
+_system\node_modules\@v
+ue\compiler-core\dist\c
+ompiler-core.cjs.prod.j
+s:2980:5)
+    at 
+Object.onclosetag (C:\U
+sers\jacob\Documents\Gi
+tHub\contract_managemen
+t_system\node_modules\@
+vue\compiler-core\dist\
+compiler-core.cjs.prod.
+js:2387:9)
+    at Tokenizer.stateI
+nClosingTagName (C:\Use
+rs\jacob\Documents\GitH
+ub\contract_management_
+system\node_modules\@vu
+e\compiler-core\dist\co
+mpiler-core.cjs.prod.js
+:799:16)
+    at Tokenizer.parse 
+(C:\Users\jacob\Documen
+ts\GitHub\contract_mana
+gement_system\node_modu
+les\@vue\compiler-core\
+dist\compiler-core.cjs.
+prod.js:1157:16)
+    at 
+Object.baseParse (C:\Us
+ers\jacob\Documents\Git
+Hub\contract_management
+_system\node_modules\@v
+ue\compiler-core\dist\c
+ompiler-core.cjs.prod.j
+s:3012:13)
+    at Object.parse (C:
+\Users\jacob\Documents\
+GitHub\contract_managem
+ent_system\node_modules
+\@vue\compiler-dom\dist
+\compiler-dom.cjs.prod.
+js:665:23)
+    at Object.parse$1 
+[as parse] (C:\Users\ja
+cob\Documents\GitHub\co
+ntract_management_syste
+m\node_modules\@vue\com
+piler-sfc\dist\compiler
+-sfc.cjs.js:1824:24)
+    at 
+createDescriptor (file:
+///C:/Users/jacob/Docum
+ents/GitHub/contract_ma
+nagement_system/node_mo
+dules/@vitejs/plugin-vu
+e/dist/index.mjs:54:42)
+    at transformMain (f
+ile:///C:/Users/jacob/D
+ocuments/GitHub/contrac
+t_management_system/nod
+e_modules/@vitejs/plugi
+n-vue/dist/index.mjs:13
+19:33)[39m
+npm notice
+npm notice New minor 
+version of npm 
+available! 11.8.0 -> 
+11.11.0
+npm notice Changelog: h
+ttps://github.com/npm/c
+li/releases/tag/v11.11.
+0
+npm notice To update 
+run: npm install -g 
+npm@11.11.0
+npm notice

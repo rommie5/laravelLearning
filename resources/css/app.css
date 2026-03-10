@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Core Brand Palette (OKLCH) */
+  --color-brand-50: oklch(97% 0.01 247);
+  --color-brand-100: oklch(94% 0.02 247);
+  --color-brand-200: oklch(88% 0.04 247);
+  --color-brand-300: oklch(80% 0.07 247);
+  --color-brand-400: oklch(70% 0.10 247);
+  --color-brand-500: oklch(60% 0.12 247);
+  --color-brand-600: oklch(50% 0.14 247);
+  --color-brand-700: oklch(40% 0.14 247);
+  --color-brand-800: oklch(30% 0.12 247);
+  --color-brand-900: oklch(15% 0.07 247);
+  --color-brand-950: oklch(10% 0.05 247);
+
+  /* Semantic Semantic Tokens (Strategic v2) */
+  --color-primary: var(--color-brand-600);
+  --color-success: oklch(65% 0.15 150);
+  /* Accessible Green */
+  --color-warning: oklch(75% 0.15 75);
+  /* Accessible Amber */
+  --color-danger: oklch(55% 0.20 25);
+  /* Accessible Red */
+  --color-info: oklch(60% 0.15 250);
+  /* Accessible Blue */
+
+  --color-bg-light: oklch(98% 0.005 247);
+  --color-bg-dark: oklch(12% 0.04 247);
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-light text-brand-900 antialiased font-sans transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-bg-dark text-brand-50;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-brand-600 text-white rounded-lg font-medium shadow-sm hover:bg-brand-700 transition-all active:scale-95 disabled:opacity-50;
+  }
+
+  .card {
+    @apply bg-white dark:bg-brand-900 border border-brand-200 dark:border-brand-800 rounded-xl shadow-sm overflow-hidden;
+  }
+
+  .badge {
+    @apply px-2 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider whitespace-nowrap;
+  }
+
+  .badge-active {
+    @apply bg-emerald-100 text-emerald-700 border border-emerald-200;
+  }
+
+  .badge-pending {
+    @apply bg-amber-100 text-amber-700 border border-amber-200;
+  }
+
+  .badge-rejected {
+    @apply bg-rose-100 text-rose-700 border border-rose-200;
+  }
+
+  .badge-draft {
+    @apply bg-slate-100 text-slate-700 border border-slate-200;
+  }
+
+  .input-field {
+    @apply block w-full px-4 py-2.5 bg-brand-50 dark:bg-brand-800 border border-brand-200 dark:border-brand-700 rounded-lg focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-all outline-none dark:text-white dark:placeholder:text-brand-500;
+  }
+}
+
+/* Glassmorphism utility */
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}

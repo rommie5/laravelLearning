@@ -1,0 +1,140 @@
+﻿
+> build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 30 modules transformed.
+node.exe : 
+[31mÔ£ù[39m Build 
+failed in 1.22s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : 
+NotSpecified:     
+([31mÔ£ù[39m Build   
+  failed in 1.22s:Str  
+  ing) [], RemoteExcep 
+   tion
+    + 
+FullyQualifiedErro    
+rId : NativeCommandE   
+ rror
+ 
+[31merror during 
+build:
+[31m[vite:vue] 
+[vue/compiler-sfc] 
+Identifier 
+'notifications' has 
+already been declared. 
+(25:6)
+
+C:/Users/jacob/Document
+s/GitHub/contract_manag
+ement_system/resources/
+js/Components/Layout/To
+pNav.vue
+23 |  const 
+isNotificationsOpen = 
+ref(false);
+24 |  
+25 |  const 
+notifications = ref([
+   |        ^
+26 |      { id: 1, 
+title: 'New Contract 
+Assigned', message: 
+'Strategic Housing 
+Phase I requires 
+review.', time: '2m 
+ago', read: false },
+27 |      { id: 2, 
+title: 'Approval 
+Required', message: 
+'Officer has submitted 
+a new clause update.', 
+time: '1h ago', read: 
+false },[31m
+file: [36mC:/Users/jac
+ob/Documents/GitHub/con
+tract_management_system
+/resources/js/Component
+s/Layout/TopNav.vue:25:
+6[31m
+    at constructor (C:\
+Users\jacob\Documents\G
+itHub\contract_manageme
+nt_system\node_modules\
+@babel\parser\lib\index
+.js:365:19)
+    at Parser.raise (C:
+\Users\jacob\Documents\
+GitHub\contract_managem
+ent_system\node_modules
+\@babel\parser\lib\inde
+x.js:6599:19)
+    at ScopeHandler.che
+ckRedeclarationInScope 
+(C:\Users\jacob\Documen
+ts\GitHub\contract_mana
+gement_system\node_modu
+les\@babel\parser\lib\i
+ndex.js:1619:19)
+    at ScopeHandler.dec
+lareName (C:\Users\jaco
+b\Documents\GitHub\cont
+ract_management_system\
+node_modules\@babel\par
+ser\lib\index.js:1585:1
+2)
+    at Parser.declareNa
+meFromIdentifier (C:\Us
+ers\jacob\Documents\Git
+Hub\contract_management
+_system\node_modules\@b
+abel\parser\lib\index.j
+s:7567:16)
+    at 
+Parser.checkIdentifier 
+(C:\Users\jacob\Documen
+ts\GitHub\contract_mana
+gement_system\node_modu
+les\@babel\parser\lib\i
+ndex.js:7563:12)
+    at 
+Parser.checkLVal (C:\Us
+ers\jacob\Documents\Git
+Hub\contract_management
+_system\node_modules\@b
+abel\parser\lib\index.j
+s:7500:12)
+    at 
+Parser.parseVarId (C:\U
+sers\jacob\Documents\Gi
+tHub\contract_managemen
+t_system\node_modules\@
+babel\parser\lib\index.
+js:13412:10)
+    at Parser.parseVar 
+(C:\Users\jacob\Documen
+ts\GitHub\contract_mana
+gement_system\node_modu
+les\@babel\parser\lib\i
+ndex.js:13383:12)
+    at Parser.parseVarS
+tatement (C:\Users\jaco
+b\Documents\GitHub\cont
+ract_management_system\
+node_modules\@babel\par
+ser\lib\index.js:13230:
+10)[39m

@@ -1,0 +1,27 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_firebird' (tried: ext\pdo_firebird (The specified module could not be found), ext\php_pdo_firebird.dll (The specified module could not be found)) in Unknown on line 0
+
+   PASS  Tests\Unit\ExampleTest
+  Γ£ô that true is tΓÇª 0.01s  
+
+   FAIL  Tests\Feature\ExampleTest
+  Γ¿» the applicatioΓÇª 0.24s  
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ  
+   FAILED  Tests\FeaturΓÇª   
+  Expected response status code [200] but received 302.
+Failed asserting that 302 is identical to 200.
+
+  at tests\Feature\ExampleTest.php:17
+     13Γûò     public function test_the_application_returns_a_successful_response(): void
+     14Γûò     {
+     15Γûò         $response = $this->get('/');
+     16Γûò 
+  Γ₧£  17Γûò         $response->assertStatus(200);
+     18Γûò     }
+     19Γûò }
+     20Γûò
+
+
+  Tests:    1 failed, 1 passed (2 assertions)
+  Duration: 0.39s
+
