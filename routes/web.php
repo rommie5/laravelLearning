@@ -79,6 +79,10 @@ Route::middleware(['auth'])->group(function () {
         Route::post('installments/{installment}/pay', [InstallmentController::class, 'markPaid'])->name('installments.pay');
     });
 
+    Route::get('/test', function () {
+    return "Laravel is working";
+});
+
     // ──────────────────────────────────────────
     // Head-only Actions
     // ──────────────────────────────────────────
